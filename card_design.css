@@ -1,0 +1,50 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ .card{
+    border-radius: 25px;
+    margin: 4px;
+    padding: 0 0 34px 0;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 15px 5px black;
+    font-weight: 400;
+    font-style: normal;
+    width: 300px;
+}
+.image{
+    padding:5px;
+}
+.image img{
+    border-radius: 25px;
+}
+.content{
+    padding: 7px 13px;
+
+}
+span{
+    border:1px solid black ;
+    margin: 10px;
+    padding:5px;
+    border-radius: 10px;
+}
+.capsules{
+    margin: 20px
+}
+
+button{
+    border-radius: 45px;
+    padding: 10px;
+    color: blue;
+    background-color: aqua;
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+    font-family: "Protest Guerrilla", sans-serif;
+}
+body{
+    background-color: antiquewhite;
+    padding: 45px;
+    display: flex;
+    font-family: "Protest Guerrilla", sans-serif;
+}
