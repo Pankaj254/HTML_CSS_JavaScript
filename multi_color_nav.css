@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primarycolor:rgb(5, 252, 34);
+    --seccolor:rgb(228, 235, 169);
+    --textcolor:white;
+}
+nav{
+    padding: 10px;
+    background-color: var(--primarycolor);
+}
+body{
+    background-color: var(--seccolor);
+}
+
+ul li{
+    list-style: none;
+    display: inline;
+    margin: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: var(--textcolor);
+
+}
