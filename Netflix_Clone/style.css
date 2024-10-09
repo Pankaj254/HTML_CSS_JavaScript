@@ -32,10 +32,11 @@ nav {
   margin: auto;
   justify-content: space-between;
   height: 100px;
+
 }
 nav img {
   color: red;
-  width: 114px;
+  width: 130px;
   position: relative;
   z-index: 10;
 }
@@ -75,6 +76,8 @@ nav button {
 .separation {
   height: 7px;
   background-color: rgb(46, 44, 44);
+  position: relative;
+  z-index: 20;
 }
 .btn {
   padding: 3px 8px;
@@ -140,6 +143,7 @@ section.first> div{
     display: flex;
     flex-direction: column;
 }
+
 .first>div :first-child{
 font-size: 48px;
 font-weight: bolder;
@@ -154,17 +158,69 @@ font-size: 24px;
     color: white;
     padding: 34px;
 }
+.faqbox:hover{
+  background-color:rgba(65,65,65,1) ;
+}
+
 .faqbox{
+  transition: all 1s ease-out;
     font-size: 24px;
     display: flex;
-    background-color: grey;
+    background-color: #2d2d2d ;
     padding: 24px;
     max-width: 60vw;
     margin: 34px auto;
     justify-content: space-between;
     cursor: pointer;
 }
+
 .faq h2{
     text-align: center;
     font-size: 48px;
+}
+
+.faqbox svg{
+  filter: invert(1);
+}
+
+footer{
+  color:white;
+  max-width: 60vw;
+  margin: auto;
+  padding: 14px;
+}
+
+.footer a{
+  color: white;
+  font-size: 14px;
+}
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+
+}
+footer .questions{
+  padding: 34px 0;
+}
+
+.footer-item{
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.thirdImg img{
+  width: 555px;
+  position: relative;
+  z-index: 10;
+}
+.thirdImg{
+  position: relative;
+}
+.thirdImg video{
+  position: absolute;
+  top: 70px;
+  right: 4px;
+  width: 483px;
 }
