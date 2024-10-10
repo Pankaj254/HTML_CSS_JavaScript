@@ -3,30 +3,59 @@
     padding: 0;
     margin: 0;
     font-family: "Poppins", sans-serif;
+    color: white;
 }
 
 .content{
+    position: relative;
     display: flex;
-    border: 10px solid black;
+    flex-direction: row;
+    /* border: 10px solid black; */
+
 }
 body{
     height:100vh;
-    background-color: rgb(84, 91, 95);
+    background-color:#121321;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 main{
-    background-color: rgb(231, 95, 17);
+    background-color: rgba(255,255,255,0.1);
     width: 350px;
     height: 200px;
+    border-radius: 25px;
+    padding: 15px;
+    position: relative;
+    z-index: 10;
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.25);
+    border: 2px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(45px);
+
+}
+.first-ball, .second-ball {
+    position: absolute;
+    z-index: 1; /* Keep the circles behind the main card */
 }
 .first-ball{
-    border:2px solid blue;
+    background: linear-gradient(90deg,#645ce0,#f1f1);
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    top: -85px; /* Position it behind the top left of the card */
+    left: -80px;
 }
 .second-ball{
-    border:2px solid rgb(20, 88, 26);
+    background: linear-gradient(90deg,#db4925,#f3f8);
+    width: 150px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-top: 120px;
+    right: -75px;
 }
+
 .top-portion{
     display: flex;
     justify-content: space-between;
@@ -46,6 +75,6 @@ main{
     justify-content: space-between;
     padding-top: 10px;
 }
-.bottom-portion:nth-child(1){
-    border: 2px solid red;
+.bottom-portion span:nth-child(){
+    padding-top: 20px;
 }
