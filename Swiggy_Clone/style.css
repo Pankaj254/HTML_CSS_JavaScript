@@ -1,7 +1,40 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.header img,svg{
-    border: 2px solid black;
+/* .header img,
+svg {
+  border: 2px solid black;
+} */
+.header-left {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+.search-button{
+    display: flex;
+    align-items: center;
+    border: 2px solid gray;
+    padding: 10px;
+    background-color: rgb(216, 213, 213);
+}
+.search-button input {
+  width: 250px;
+  height: 24px;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: left;
+  border: none;
+  padding-right: 120px;
+  background-color: rgb(216, 213, 213);
+}
+.header-right{
+    display: flex;
+    gap:30px;
+    padding: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
 }
