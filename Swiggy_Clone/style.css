@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Gilroy';
-  src: url(fonts/gilroy-bold/Gilroy-Bold.ttf);
+  src: url(fonts/gilroy-bold/Gilroy-Medium.ttf);
 }
 * {
   margin: 0;
@@ -17,19 +17,20 @@
 .search-button{
     display: flex;
     align-items: center;
-    border: 2px solid gray;
+    border-radius: 10px;
     padding: 10px;
-    background-color: rgb(216, 213, 213);
+    background-color: rgb(240, 240, 245);
 }
 .search-button input {
-  width: 250px;
+  width: 253px;
   height: 24px;
   font-size: 18px;
   line-height: 24px;
   text-align: left;
+  overflow: hidden;
   border: none;
   padding-right: 120px;
-  background-color: rgb(216, 213, 213);
+  background-color: rgb(240, 240, 245);
 }
 .header-right{
     display: flex;
@@ -38,10 +39,31 @@
 }
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .line{
   height: 2px;
   width: 100%;
   background-color: gray;
+}
+.first-sec{
+  background: linear-gradient(0deg, rgb(201, 188, 244) 0%, rgb(255, 255, 255) 95.83%);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-end-end-radius:30px;
+  border-end-start-radius: 30px;
+}
+.first-sec-heading{
+  display: flex;
+  flex-direction: column;
+}
+.first-sec img{
+  width: 501px;
+  height: 300px;
+}
+h1{
+  font-size:48px ;
+  color: rgba(2, 6, 12, 0.75);
+  font-weight: 800;
 }
