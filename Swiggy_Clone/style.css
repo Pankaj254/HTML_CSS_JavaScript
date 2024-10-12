@@ -1,11 +1,13 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url(fonts/gilroy-bold/Gilroy-Bold.ttf);
+}
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Gilroy','Arial','sans-serif';
 }
-/* .header img,
-svg {
-  border: 2px solid black;
-} */
+
 .header-left {
   display: flex;
   align-items: center;
@@ -37,4 +39,9 @@ svg {
 nav{
     display: flex;
     justify-content: space-between;
+}
+.line{
+  height: 2px;
+  width: 100%;
+  background-color: gray;
 }
