@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'Gilroy';
+  font-family: "Gilroy";
   src: url(fonts/gilroy-bold/Gilroy-Medium.ttf);
 }
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Gilroy','Arial','sans-serif';
+  font-family: "Gilroy", "Arial", "sans-serif";
 }
 
 .header-left {
@@ -14,12 +14,12 @@
   padding: 10px;
   gap: 10px;
 }
-.search-button{
-    display: flex;
-    align-items: center;
-    border-radius: 10px;
-    padding: 10px;
-    background-color: rgb(240, 240, 245);
+.search-button {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(240, 240, 245);
 }
 .search-button input {
   width: 253px;
@@ -32,50 +32,54 @@
   padding-right: 120px;
   background-color: rgb(240, 240, 245);
 }
-.header-right{
-    display: flex;
-    gap:30px;
-    padding: 10px;
+.header-right {
+  display: flex;
+  gap: 30px;
+  padding: 10px;
 }
-nav{
-    display: flex;
-    justify-content: space-around;
+nav {
+  display: flex;
+  justify-content: space-around;
 }
-.line{
+.line {
   height: 2px;
   width: 100%;
   background-color: gray;
 }
-.first-sec{
-  background: linear-gradient(0deg, rgb(201, 188, 244) 0%, rgb(255, 255, 255) 95.83%);
+.first-sec {
+  background: linear-gradient(
+    0deg,
+    rgb(201, 188, 244) 0%,
+    rgb(255, 255, 255) 95.83%
+  );
   display: flex;
   align-items: center;
   justify-content: space-around;
-  border-end-end-radius:30px;
+  border-end-end-radius: 30px;
   border-end-start-radius: 30px;
 }
-.first-sec-heading{
+.first-sec-heading {
   display: flex;
   flex-direction: column;
 }
-.first-sec img{
+.first-sec img {
   width: 501px;
   height: 300px;
 }
-h1{
-  font-size:48px ;
+h1 {
+  font-size: 48px;
   color: #02060c;
-  opacity: 75.0%;
+  opacity: 75%;
   line-height: 48px;
   letter-spacing: -0.43px;
   text-align: start;
   font-weight: bolder;
 }
-h2{
+h2 {
   font-size: 24px;
   font-weight: 800;
 }
-.arrows img{
+.arrows img {
   width: 16px;
   /* border: 2px solid black; */
   border-radius: 100%;
@@ -85,37 +89,39 @@ h2{
   margin-right: 10px;
   background: rgba(2, 6, 12, 0.15);
 }
-.on-your-mind{
+.on-your-mind {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.diff-images{
+.diff-images {
   display: flex;
   justify-content: space-between;
 }
-.diff-images>div>img{
+.diff-images > div > img {
   width: 144px;
   height: 180px;
 }
 /* .on-your-mind-section{
   padding: 16px 140px;
 } */
-/* .djvAfi {
+.card {
   position: relative;
-  width: 56%;
-  height: 100%;
-  border-radius: 16px;
-  overflow: hidden;
-  filter: drop-shadow(rgba(0, 0, 0, 0.1) 0px 2px 8px);
+  display: inline-block;
 }
-.cKWxtR {
-  position: absolute;
-  bottom: 0px;
+
+.card img {
+  width: 312px;
+  height: 207px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.offer-design {
+  border-radius: 15px;
+  position:absolute;
+  bottom: 88px;
   right: 0px;
   left: 0px;
-}
-.hoxpqr {
   display: grid;
   align-content: end;
   text-align: left;
@@ -124,78 +130,38 @@ h2{
   padding-bottom: 8px;
   height: calc(81px);
   background: linear-gradient(rgba(27, 30, 36, 0) 0%, rgb(27, 30, 36) 84.21%);
-}
-.DGAGY {
-  text-transform: uppercase;
-}
-.bplBgF {
-  font-family: ProximaNovaCond;
-  font-weight: 800;
-  font-size: 16px;
-  line-height: 16px;
-  letter-spacing: -0.4px;
-  color: rgba(255, 255, 255, 0.92);
-  overflow: hidden;
-  width: 100%;
-  display: -webkit-box;
-  overflow-wrap: break-word;
-  -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical;
-}
-.fsIdyU {
-  font-family: ProximaNovaCond_Black;
+  color: white;
   font-weight: 800;
   font-size: 22px;
   line-height: 22px;
   letter-spacing: -0.5px;
-  color: rgba(255, 255, 255, 0.92);
-  overflow: hidden;
-  width: 100%;
-  display: -webkit-box;
-  overflow-wrap: break-word;
-  -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical;
 }
-.hlQXCL {
-  font-family: ProximaNovaCond_Extrabold;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 12px;
-  letter-spacing: -0.3px;
-  color: rgba(255, 255, 255, 0.75);
-  overflow: hidden;
-  width: 100%;
-  display: -webkit-box;
-  overflow-wrap: break-word;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-} */
-.pizzahut {
-  position: relative;
-  display: inline-block;
-}
-
-.pizzahut img {
-  width: 312px;
-  height: 207px;
-  object-fit: cover;
-  border-radius: 15px;
-}
-
-.pizzahut .offer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background: linear-gradient(to top, rgba(0, 0, 0, 1.0), rgba(0, 0, 0, 0.3)); /* Gradient for the overlay */
-  color: white; /* Bright white text */
-  text-align: left;
-  padding-top: 10px 0;
-  padding-bottom: 10px; /* Padding to space the text */
-  padding-left: 15px;
+.restaurant-name{
   font-size: 18px;
-  font-weight: bold;
-  border-radius: 0 0 15px 15px; /* Rounded corners on bottom */
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.3px;
+  color: rgba(2, 6, 12, 0.92);
+  overflow: hidden;
+  width: 100%;
 }
-
-
+.rating{
+  display: flex;
+  text-align: center;
+}
+.r{
+  font-family: Gilroy;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.92);
+}
+.restaurants{
+  display: flex;
+  justify-content: center;
+  gap:20px
+}
+.card:hover{
+  transform: scale(0.95);
+}
