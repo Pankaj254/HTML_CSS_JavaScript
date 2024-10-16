@@ -270,6 +270,9 @@ hr {
   border: 1px solid rgba(2, 6, 12, 0.05);
   margin: 40px 0px;
 }
+.dash{
+  color:rgba(2, 6, 12, 0.2);
+}
 .details {
   padding-left: 10px;
   padding-top: 2px;
