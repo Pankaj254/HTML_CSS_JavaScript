@@ -2,30 +2,17 @@
     padding: 0;
     margin: 0;
 }
-[dir] .sony-bar__logo {
-    margin: 0 8px;
-}
-[dir] .sony-logo {
-    background-image: url(clientlibs-jetstream/resources/assets/fonts/sony_logo.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.sony-bar__logo {
-    width: 75px;
-}
-.sony-logo {
-    display: inline-block;
-    height: 100%;
-    width: 100%;
-}
-[dir=ltr] .sony-bar {
-    text-align: right;
-}
-sony-bar {
-    bottom: 0;
-    font-size: 0;
+
+/*sony logo part*/
+.sony-logo{
+    background-color: black;
     height: 36px;
-    position: absolute;
     width: 100%;
-    z-index: 9999;
+    /* position: absolute; */
+    text-align: right;
+    display: inline-block;
+    top:0;
+}
+.sony-logo img{
+    padding-top: 11px;
 }
