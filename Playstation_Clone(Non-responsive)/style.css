@@ -16,3 +16,62 @@
 .sony-logo img{
     padding-top: 11px;
 }
+
+/*Left part of Nav*/
+.item{
+    display: flex;
+    align-items:end;
+}
+.nav-list{
+    display: flex;
+    gap: 8px;
+}
+.left-part-nav{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/*Right part of Nav*/
+span{
+    background-color:#0070CC ;
+    border:2px solid black;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 4px 18px;
+}
+#text-area{
+    width: 45px;
+    border: none;
+}
+.search-box{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(235, 229, 229);
+    gap: 30px;
+}
+::placeholder{
+    color: black;
+}
+.search-icon{
+    padding-top: 8px;
+    padding-right: 5px;
+}
+.right-part-nav{
+    display: flex;
+    gap: 10px;
+}
+.search-box-text>input[type="text"]{
+    outline: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first-section{
+    height: 570px;
+    display: flex;
+}
+/* nav=64px */
