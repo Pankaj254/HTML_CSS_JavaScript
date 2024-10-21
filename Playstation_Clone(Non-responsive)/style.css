@@ -114,12 +114,12 @@ nav{
     object-fit: cover;
     border-radius: 10px;
 }
-.card{
-
+.card>img:hover{
+    transform:translateY(-15px);
+    cursor: pointer;
 }
-.second-section{
+.playstation-cards{
     display: flex;
     gap: 12px;
     justify-content: center;
-
 }
