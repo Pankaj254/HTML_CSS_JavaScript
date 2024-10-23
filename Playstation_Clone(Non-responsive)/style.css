@@ -109,8 +109,8 @@ nav{
 /*Second-Section*/
 
 .card>img{
-    width: 180px;
-    height: 100px;
+    width: 136px;
+    height: 76px;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -179,3 +179,58 @@ nav{
 }
 
 /*Fifth-Section*/
+.fifth-section{
+    background-color: #121314;
+}
+.fifth-section-text{
+    text-align: center;
+    font-size: 39px;
+    color: #ffffff;
+}
+.fifth-section-buttons{
+    display: flex;
+    justify-content: center;
+}
+.fifth-section-button{
+    display: flex;
+    background-color: #1D1E22;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.new-release-button,.coming-soon-button{
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 12px 16px;
+    font-weight: bold;
+}
+.new-release-button{
+    background-color: white;
+}
+.coming-soon-button{
+    color: white;
+}
+.games{
+    display: grid;
+    column-gap: 10px;
+    row-gap: 40px;
+    grid-template-columns: repeat(6,1fr);
+}
+.game-card>img{
+    width: 213px;
+    height: 213px;
+    object-fit: cover;
+    border-radius: 10px;
+    background-color: white;
+}
+.game-card{
+    position: relative;
+}
+.ps5-logo{
+    position: absolute;
+}
+.game-name{
+    padding-top: 3px;
+    color: white;
+    font-size: 15px;
+}
