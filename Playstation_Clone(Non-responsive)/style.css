@@ -181,15 +181,19 @@ nav{
 /*Fifth-Section*/
 .fifth-section{
     background-color: #121314;
+    margin-top:74px ;
 }
 .fifth-section-text{
     text-align: center;
     font-size: 39px;
     color: #ffffff;
+    padding-top: 56px;
 }
 .fifth-section-buttons{
     display: flex;
     justify-content: center;
+    padding-bottom: 14px;
+    margin: 32px 0px 8px 0px;
 }
 .fifth-section-button{
     display: flex;
@@ -220,7 +224,7 @@ nav{
     width: 213px;
     height: 213px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 8px;
     background-color: white;
 }
 .game-card{
@@ -233,4 +237,31 @@ nav{
     padding-top: 3px;
     color: white;
     font-size: 15px;
+}
+
+/* Sixth-Section */
+
+.sixth-section{
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/horror-interactive-wizard-start-background-desktop-01-en-03oct24?$3200px$);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    background-position: right;
+}
+.sixth-section-left{
+    background-color: black;
+    color: white;
+    clip-path: polygon(0 0, 60% 0, 50% 100%, 0 100%);
+    padding-left: 50px;
+}
+.sixth-section-text>h1{
+    font-size: 49px;
+    text-align: start;
+}
+.sixth-section-text>p{
+    font-size: 16px;
+    text-align: start;
+}
+.ps-controls-icons>img{
+    width: 250px;
 }
