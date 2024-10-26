@@ -285,9 +285,112 @@ nav {
 }
 
 /* Seventh-Section */
+
+.seventh-section{
+  background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/play-play-play-ps-plus-background-desktop-01-ja-jp-03jul23?$4000px$);
+  background-size:cover;
+  background-position: right;
+  margin-top: 64px;
+}
 .seventh-section-logo-image > img {
   width: 245px;
 }
+
 .seventh-section-one {
   text-align: center;
+  padding-top: 75px;
+}
+.seventh-section-two{
+  padding-top: 30px;
+}
+.seventh-section-two-images{
+  display: flex;
+  gap: 15px;
+}
+
+#image-one{
+  width: 260px;
+  height: 300px;
+  object-fit: cover;
+  object-position: right;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+#image-two{
+  width: 800px;
+  height: 300px;
+  object-fit: cover;
+  object-position: right;
+  border-radius: 15px;
+  border-left: 1px solid #9da2aa;
+}
+#image-three{
+  width: 290px;
+  height: 300px;
+  object-fit: cover;
+  object-position: left;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.seventh-section-text>h1{
+  font-weight: lighter;
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.seventh-section-text>p{
+  color: #6b6b6b;
+  letter-spacing: 0.1px;
+  font-size: 16px;
+}
+.seventh-section-two-second-image-text {
+  position: relative;
+}
+.seventh-section-two-third-image-text{
+  position: relative;
+}
+
+.nightwing-text {
+  width: 400px;
+  position: absolute;
+  top: 150px;
+  left: 20px;
+  color: white; 
+  z-index: 10;
+}
+.nightwing-text>h2{
+  font-size: 24px;
+  font-weight: lighter;
+}
+.nightwing-text>p{
+  padding-top: 10px;
+  font-size: 16px;
+}
+.after-nightwing-text{
+  width: 250px;
+  position: absolute;
+  top: 150px;
+  left: 20px;
+  color: white; 
+  z-index: 10;
+}
+.after-nightwing-text>h2{
+  font-size: 24px;
+  font-weight: lighter;
+}
+.after-nightwing-text>p{
+  padding-top: 10px;
+  font-size: 16px;
+}
+.dicovery-plus-button{
+  background-color: #0070CC;
+  color:white;
+  width: 170px;
+  padding: 8px;
+  border-radius: 18px;
+}
+.seventh-section-three{
+  display: flex;
+  justify-content: center;
+  padding: 65px;
 }
