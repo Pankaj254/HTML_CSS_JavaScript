@@ -394,3 +394,112 @@ nav {
   justify-content: center;
   padding: 65px;
 }
+
+/* Eight-section */
+
+/* Eight Section top */
+.eight-section-top{
+  background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/this-month-on-playstation-oct-homepage-background-desktop-01-en-17sep24?$4000px$);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.eight-section-top-text{
+  display: flex;
+  flex-direction: column;
+  padding: 70px 110px;
+}
+.eight-section-top-text>h1{
+  font-size: 42px;
+  font-weight: lighter;
+  color: white;
+  text-transform: uppercase;
+}
+.eight-section-top-text>p{
+  font-size: 16px;
+  font-weight: lighter;
+  color: #b2b2b2;
+  word-spacing: 2px;
+}
+
+/* Eight Section Bottom */
+
+.eight-section-bottom{
+  background-color: #26254F;
+}
+.eight-section-bottom-cards{
+  display: flex;
+  justify-content: center;
+  gap:40px;
+}
+.eight-section-bottom-card-image>img{
+  width: 380px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  object-position:center;
+}
+.eight-section-bottom-card-text{
+  color: white;
+}
+.eight-section-bottom-card-text>h3{
+  font-weight: lighter;
+  padding: 15px 15px 8px 12px;
+}
+.eight-section-bottom-card-text>p{
+  font-weight: lighter;
+  word-spacing: 1.2px;
+  font-size: 15px;
+  padding: 0.5px 0px 0px 12px;
+}
+.eight-section-button{
+  display: flex;
+  justify-content: center;
+  padding: 65px;
+}
+.find-more-button{
+  text-align: center;
+  font-weight: bold;
+  background-color: white;
+  color:black;
+  width: 100px;
+  padding: 10px;
+  border-radius: 18px;
+}
+
+/* Ninth-Section */
+.deal-button{
+  text-align: center;
+  font-weight: bold;
+  background-color: #D53B00;
+  color:white;
+  width: 90px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.ninth-section{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+.ninth-section-right>img{
+  width: 800px;
+  height: 450px;
+  border-radius: 15px;
+}
+.ninth-section-left>h1{
+  font-size: 40px;
+  font-weight: lighter;
+  margin: 0px 0px;
+}
+.ninth-section-left>p{
+  padding-top: 15px;
+  font-size: 16px;
+  font-weight: lighter;
+  color: #777474;
+  word-spacing: 2px;
+}
+.ninth-section-left-button{
+  padding: 30px 8px;
+}
