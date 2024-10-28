@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: 'SST', sans-serif;
 }
 
 /*sony logo part*/
@@ -98,6 +99,7 @@ nav {
   line-height: 1.4;
 }
 .pre-order-button {
+  text-align: center;
   background-color: white;
   width: 100px;
   border-radius: 20px;
@@ -143,6 +145,7 @@ nav {
   margin-bottom: 20px;
 }
 .more-button {
+  text-align: center;
   font-weight: bold;
   background-color: #0070cc;
   color: white;
@@ -382,7 +385,9 @@ nav {
   padding-top: 10px;
   font-size: 16px;
 }
-.dicovery-plus-button{
+.discovery-plus-button{
+  font-weight: bold;
+  text-align: center;
   background-color: #0070CC;
   color:white;
   width: 170px;
@@ -502,4 +507,136 @@ nav {
 }
 .ninth-section-left-button{
   padding: 30px 8px;
+}
+
+/* Tenth Section */
+.tenth-section{
+  background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/ps-gear-evergreen-background-block-desktop-01-en-27may22?$4000px$);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tenth-section-main{
+  padding: 80px 80px 0px 80px;
+  background: rgba(255, 255, 255, 0.5);
+}
+.tenth-section-main>h1{
+  font-weight: 400;
+  font-size: 38px;
+}
+.tenth-section-main>p{
+  font-weight: light;
+  color: #615e5e;
+  font-size: 16px;
+  
+}
+
+.tenth-section-cards{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 120px 50px 0px 50px;
+}
+.tenth-section-card{
+  border: 1px solid #A1A2A2;
+  border-radius: 10px ;
+}
+.tenth-section-card>img{
+  width: 400px;
+  word-spacing: 1.2;
+}
+.mug-text{
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: center;
+  padding-top: 50px;
+}
+.buy-now-button{
+  text-align: center;
+  font-weight: bold;
+  background-color: #D53B00;
+  color:white;
+  width: 60px;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 30px ;
+}
+.browse-collection-button{
+  font-weight: bold;
+  text-align: center;
+  background-color: #0070CC;
+  color:white;
+  width: 170px;
+  padding: 8px;
+  border-radius: 18px;
+  margin:45px;
+}
+.tenth-section-button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Eleventh Section */
+
+.eleventh-section{
+  text-align: center;
+}
+.eleventh-section>h1{
+  font-size: 36px;
+  font-weight: lighter;
+  padding: 45px;
+}
+.eleventh-section-cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.eleventh-section-card{
+  padding: 10px;
+  border:1px solid black;
+  border-radius: 15px;
+}
+.eleventh-section-card-texts{
+  padding: 12px;
+}
+.eleventh-section-card-texts>h2{
+  font-size: 20px;
+  font-weight: lighter;
+}
+.eleventh-section-card-texts>p{
+  font-size: 14px;
+  font-weight: lighter;
+  padding-top: 15px;
+}
+.eleventh-section-card-image>img{
+  border-radius: 15px;
+}
+.review>:nth-child(1){
+  font-weight: bold;
+  font-size: 12px;
+  word-spacing: 2px;
+}
+.review>:nth-child(2){
+  font-size: 12px;
+  word-spacing: 2px;
+  padding-top: 2px;
+}
+.review>:nth-child(3){
+  font-size: 12px;
+  word-spacing: 2px;
+  padding-top: 2px;
+}
+.reviews-with-profile>img{
+  width:45px;
+  height:45px;
+  object-fit: contain;
+  border-radius:5px;
+}
+.reviews-with-profile{
+  display: flex;
+  gap: 10px;
+  padding-top: 30px;
 }
