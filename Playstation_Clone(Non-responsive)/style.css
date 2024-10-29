@@ -580,7 +580,7 @@ nav {
 
 /* Eleventh Section */
 
-.eleventh-section{
+.eleventh-section>h1{
   text-align: center;
 }
 .eleventh-section>h1{
@@ -592,7 +592,8 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
+  padding-bottom: 90px;
 }
 .eleventh-section-card{
   padding: 10px;
@@ -639,4 +640,74 @@ nav {
   display: flex;
   gap: 10px;
   padding-top: 30px;
+}
+
+/* Social Media Section */
+.social-media-section{
+  background-color: #F5F7FA;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 30px 30px 100px 30px;
+}
+.social-media-section>h1{
+  font-weight: lighter;
+  font-size: 30px;
+}
+.social-media-handles{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 30px;
+}
+
+/* Footer */
+footer{
+  color: white;
+  background-color: #00439C;
+}
+.footer-list{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 70px 20px 0px;
+}
+.footer-list>ul>li{
+  list-style: none;
+  line-height: 1.8;
+}
+.footer-list>ul>li:first-child{
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 0.1;
+}
+
+.footer-list>ul>li:not(:first-child){
+  font-size: 14px;
+  font-weight: lighter;
+}
+.footer-line{
+  height: 0.1px;
+  background-color: #3067AF;
+}
+.footer-social-links{
+  display: flex;
+  gap: 10px;
+  padding: 10px 0px;
+}
+.copyright-section>p{
+  font-size: 14px;
+  font-weight: lighter;
+  line-height: 1.5;
+}
+.copyright-section{
+  padding-top: 20px;
+}
+.footer-content{
+  padding: 15px 60px;
+}
+.footer-playstation-image{
+  padding: 15px;
 }
