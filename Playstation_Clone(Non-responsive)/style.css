@@ -322,6 +322,7 @@ nav {
 .seventh-section-two-images{
   display: flex;
   gap: 15px;
+  justify-content: space-between;
 }
 
 #image-one{
