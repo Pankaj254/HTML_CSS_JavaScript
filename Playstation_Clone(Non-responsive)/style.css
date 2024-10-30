@@ -70,6 +70,10 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position:sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
 }
 
 /*First-Section*/
@@ -185,6 +189,7 @@ nav {
 .fifth-section {
   background-color: #121314;
   margin-top: 74px;
+  padding-bottom: 70px;
 }
 .fifth-section-text {
   text-align: center;
@@ -197,6 +202,9 @@ nav {
   justify-content: center;
   padding-bottom: 14px;
   margin: 32px 0px 8px 0px;
+  position:sticky;
+  z-index: 900;
+  top: 55px;
 }
 .fifth-section-button {
   display: flex;
@@ -222,26 +230,31 @@ nav {
   display: grid;
   column-gap: 10px;
   row-gap: 40px;
-  grid-template-columns: repeat(6, 1fr);
-  padding-bottom: 70px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  padding: 25px 60px;
 }
 .game-card > img {
-  width: 213px;
-  height: 213px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   border-radius: 8px;
-  background-color: white;
 }
 .game-card {
   position: relative;
+  width: 95%;
+  height: 85%;
+}
+.game-card:hover{
+  transform: scale(1.03);
 }
 .ps5-logo {
   position: absolute;
+  background-color: white;
 }
 .game-name {
-  padding-top: 3px;
+  padding-top: 10px;
   color: white;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 /* Sixth-Section */
@@ -538,12 +551,13 @@ nav {
   padding: 120px 50px 0px 50px;
 }
 .tenth-section-card{
-  border: 1px solid #A1A2A2;
-  border-radius: 10px ;
+  border-radius: 20px ;
+  box-shadow: 1px 1px 10px 1px grey;
+  border: 1px solid grey;
 }
+  
 .tenth-section-card>img{
   width: 400px;
-  word-spacing: 1.2;
 }
 .mug-text{
   font-size: 20px;
@@ -597,8 +611,9 @@ nav {
 }
 .eleventh-section-card{
   padding: 10px;
-  border:1px solid black;
+  border:1px solid #E7E7E7;
   border-radius: 15px;
+  box-shadow: 0px 0px 10px 0.1px rgb(233, 232, 232);
 }
 .eleventh-section-card-texts{
   padding: 12px;
@@ -668,6 +683,7 @@ nav {
 footer{
   color: white;
   background-color: #00439C;
+  margin-top: 100px;
 }
 .footer-list{
   display: flex;
