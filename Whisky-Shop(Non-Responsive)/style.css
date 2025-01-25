@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content{
+    padding: 10px 100px;
+    background-color: #1a1a1a;
+}
+.carousel-inner img{
+    height: 500px;
+    object-fit: cover;
+}
+.cards{
+    padding: 20px;
+}
+ .card img{
+    height: 400px;
+ }
+ .heading{
+    background-color: rgb(161, 159, 158);
+    font-size: 30px;
+    text-align: center;
+    margin-top:15px ;
+    padding: 10px;
+ }
+ footer{
+    background-color: #1a1a1a;
+    margin-top: 10px;
+    padding: 100px;
+    text-align: right;
+    color: white;
+    font-size: large;
+ }
+ @media(max-width:768px){
+  .card1{
+    margin-top: 20px;
+  }
+ }
